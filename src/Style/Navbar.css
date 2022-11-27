@@ -1,0 +1,22 @@
+#Nav {
+    display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	background-color:white;
+	color:black;
+}
+#Nav ul{
+    margin:50px;
+    padding:0;
+    display: flex;
+    gap:50px;
+}
+#Nav li {
+    list-style: none;
+}
+.Title {
+    margin:auto;
+    color:black;
+    background-color: white;
+    border-radius: 5px;;
+}

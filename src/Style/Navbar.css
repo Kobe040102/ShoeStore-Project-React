@@ -1,22 +1,72 @@
-#Nav {
+#Nav{
     display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-	background-color:white;
-	color:black;
+    align-items: baseline;
+    background-color: rgba(3, 88, 3, 0.774);
+    padding: 5px;
+    
 }
-#Nav ul{
-    margin:50px;
-    padding:0;
-    display: flex;
-    gap:50px;
-}
-#Nav li {
-    list-style: none;
-}
-.Title {
-    margin:auto;
+.Fi{
     color:black;
-    background-color: white;
-    border-radius: 5px;;
 }
+.Title{
+    margin-left:40px;
+    color:White;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Nav ul {
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+    font-weight: bold;
+    font-size:20px;
+    padding:15px;
+    gap:60px;
+    margin-left:45%;
+}
+#Nav a{
+    padding:5px;
+    border:1px solid;
+    color:black;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #73A580;
+}
+#Nav a:hover{
+    color:White;
+    background-color:rgb(128, 135, 138);
+}
+.btn2{
+    display:flex;
+    align-items: baseline;
+}
+.Carts{
+    height:35px;
+    width:45px;
+}
+.search-bar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar input{
+    flex:1;
+    border-radius: 10px;
+    border: 0;
+    outline:none;
+    padding: 10px 10px;
+    font-size:20px;
+    background-color: white;
+    color:black;
+}
+.search-bar button img{
+    width:25px;
+}
+.search-bar button{
+    border:0;
+    border-radius: 10px;
+    width:60px;
+    height:50px;
+    background:#58629b;
+    cursor:pointer;
+}
+

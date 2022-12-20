@@ -4,11 +4,13 @@
     background-color: rgba(3, 88, 3, 0.774);
     padding: 5px;
     
+    
 }
 .Fi{
-    color:black;
+    color:#3b457cd8;
 }
 .Title{
+    display: flex;
     margin-left:40px;
     color:White;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,10 +20,10 @@
     align-items: baseline;
     list-style: none;
     font-weight: bold;
-    font-size:20px;
+    font-size:15.5px;
     padding:15px;
     gap:60px;
-    margin-left:45%;
+    margin-left:40%;
 }
 #Nav a{
     padding:5px;

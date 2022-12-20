@@ -13,20 +13,19 @@ function NavBar() {
               <button type="submit"><img src= {icon} alt="icon-img"/></button>
           </form>
         </div>
-            <li><a href="Men-Sec">MEN</a></li>
+            <li><a href="Men-Section">MEN</a></li>
           <div>
             <li>
-              <a href="Women-Sec">WOMEN</a>
+              <a href="Women-Section">WOMEN</a>
             </li>
           </div>
           <div>
             <li>
-              <a href="Kids-Sec">KIDS</a>
+              <a href="Kids-Section">KIDS</a>
             </li>
           </div>
           <a href="carting"><img src={shop} className= "Carts" alt="Cart"/></a>
         </ul>
-        
       </div>
     </>
   );

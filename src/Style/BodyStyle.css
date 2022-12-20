@@ -1,3 +1,22 @@
 .Bg{
-    background-image: url(../Images/Shoe-background.jpg);
+    background-image: url(../Images/Shoe-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:10%;
 }
+.Bg h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    text-align: center;
+    color:white;
+}
+.Bod{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    margin-top: 0;
+    padding: 10px;
+    background-color: rgba(6, 54, 6, 0.89);
+}
+

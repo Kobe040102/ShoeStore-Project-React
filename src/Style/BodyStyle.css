@@ -19,4 +19,32 @@
     padding: 10px;
     background-color: rgba(6, 54, 6, 0.89);
 }
+.Collec-pic{
+    display:flex;
+    justify-content: center;
+}
+.Collec-pic img{
+    width: 6.46in;
+}
+.H1{
+    color:White;
+    position: absolute;
+    left:50px;
+    background-color: black;
+}
+.H2{
+    color:white;
+    position: absolute;
+    bottom:0;
+    background-color: black;
+}
+.H3{
+    color:white;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    background-color: black;
+}
+
+
 

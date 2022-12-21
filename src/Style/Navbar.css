@@ -1,8 +1,10 @@
 #Nav{
+    position: sticky;
     display: flex;
     align-items: baseline;
     background-color: rgba(3, 88, 3, 0.774);
     padding: 5px;
+    
     
     
 }
